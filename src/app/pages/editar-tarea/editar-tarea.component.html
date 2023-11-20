@@ -1,0 +1,14 @@
+<form>
+  <label for="txtNombre">Nota</label>
+  <input id="txtNombre" name="txtNombre" [(ngModel)]="tarea.nota"/>
+  <br>
+  <label for="txtFecha">Etiquta</label>
+  <input id="txtFecha" name="txtFecha" [(ngModel)]="tarea.etiquetas"/>
+  <br>
+  <label for="txtDescripcion">Fecha</label>
+  <input id="txtDescripcion" name="txtDescripcion" [(ngModel)]="tarea.fecha"/>
+  <br>
+  <button (click)="updateTarea()">Actualizar</button>
+</form>
+
+<button (click)="goListado()">Listado</button>

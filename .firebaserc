@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "bdprueba-2a591"
+  },
+  "targets": {
+    "bdprueba-2a591": {
+      "hosting": {
+        "prueba-HenryTacuri": [
+          "bdprueba-2a591"
+        ]
+      }
+    }
+  }
+}
